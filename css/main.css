@@ -2,14 +2,8 @@ body {
     background: #ffddaa;
 }
 
-// Style for side menu
-// Non-responsive Side NAV styles
-.well.bs-sidebar {
-    margin-left: 25px;
-    background-color: #ffccbb;
-}
-
-// responsive Side NAV styles``
+/* Style for side menu */
+/* responsive Side NAV styles*/
 @media (min-width: 768px) {
     .bs-sidebar.affix {
         width: 158px;
@@ -31,3 +25,13 @@ body {
     }
 }
 
+/* Non-responsive Side NAV styles*/
+.well.bs-sidebar {
+    margin-left: 25px;
+    background-color: #ffccbb;
+}
+
+img.banner {
+    height: 55px;
+    width: 50%;
+}
