@@ -1,37 +1,79 @@
 body {
-    background: #ffddaa;
+    background: #ffddaa; /* Very Pale red */
+    padding: 0px 10% 50px 10%;
 }
 
-/* Style for side menu */
-/* responsive Side NAV styles*/
-@media (min-width: 768px) {
-    .bs-sidebar.affix {
-        width: 158px;
-        top: 25px;
-    }
+.main-title {
+    font-size: 350%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    float: left;5:38 PM 1/26/2014
 }
 
-@media (min-width: 992px) {
-    .bs-sidebar.affix {
-        width: 213px;
-        position: fixed;
-        top: 25px;
-    }
+/* Header styling */
+header img {
+    height: 80px;
+    width: 100px;
+    float: left;
 }
 
-@media (min-width: 1200px) {
-    .bs-sidebar.affix {
-        width: 263px;
-    }
-}
-
-/* Non-responsive Side NAV styles*/
-.well.bs-sidebar {
-    margin-left: 25px;
-    background-color: #ffccbb;
-}
 
 img.banner {
     height: 55px;
     width: 50%;
+}
+
+.header-sub-title {
+    float:left;
+    clear:both;
+}
+
+/* Navbar styling */
+.navbar {
+    clear: both;
+    background: #ffddaa;
+
+    border-bottom: 3px solid #990066; /* Dark Purple */
+    border-top: none;    
+    border-left: none;    
+    border-right: none;    
+}
+
+/* Used to center navbar if desired
+.navbar .navbar-nav {
+    float: none;
+    display: inline-block;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+*/
+
+.navbar div {
+    padding: 0px 0px 0px 0px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #d33300; /* Dark Orange */
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #990066;
+}
+
+/* Page content-body styling */
+.page-title {
+    margin: 0px 0px 20px 0px; 
+}
+
+/* Fonts */
+@font-face {
+    font-family: GreatVibes;
+    src: url(fonts/GreatVibes-Regular.tff);
+}
+
+.wedding-font {
+    font-family: GreatVibes, serif;
 }
