@@ -1,4 +1,4 @@
-body {
+body.content-container {
     background: #ffddaa; /* Very Pale red */
     padding: 0px 10% 50px 10%;
 }
@@ -7,6 +7,8 @@ body {
 /* Header styling */
 .main-title {
     font-size: 350%;
+}
+header .main-title {
     text-align: center;
     float: left;
     width: 100%;
@@ -20,10 +22,12 @@ body {
     width: 98%; /* Looked off-center below title text even when its not */
 }
 
-header img {
+img.elephant-icon {
     height: 80px;
     width: 100px;
     float: left;
+}
+header img.elephant-icon {
     margin-top: 20px;
     margin-bottom: -95px;
 }
