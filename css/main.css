@@ -81,3 +81,17 @@ header img.elephant-icon {
 .wedding-font {
     font-family: GreatVibes, serif;
 }
+
+/* Bridal Party Page styles */
+.bridal-party__container .bridal-party__name {
+    float: none;
+}
+
+.bridal-party__container .bridal-party__description {
+    float: left;
+    width: 50%;
+}
+
+.bridal-party__container .bridal-party__img {
+    width: 50%;
+}
