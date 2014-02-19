@@ -1,3 +1,11 @@
+/* Bootstrap add-on styling */
+.center-col-9 {
+    position: relative;
+    left: 12.5%;
+    right: -12.5%;
+}
+
+/* Overall site styling */
 body.content-container {
     background: #ffddaa; /* Very Pale red */
     padding: 0px 10% 50px 10%;
@@ -83,15 +91,30 @@ header img.elephant-icon {
 }
 
 /* Bridal Party Page styles */
+.bridal-party__container{
+    float: left;
+    display: inline;
+    width: 75%;
+}
+
 .bridal-party__container .bridal-party__name {
     float: none;
+    font-size: large;
 }
 
-.bridal-party__container .bridal-party__description {
+.bridal-party__img {
     float: left;
-    width: 50%;
+    width: 25%;
 }
 
-.bridal-party__container .bridal-party__img {
-    width: 50%;
+/* Registry Page styles */
+div.registry__container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.registry__icon {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
 }
