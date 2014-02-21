@@ -91,20 +91,33 @@ header img.elephant-icon {
 }
 
 /* Bridal Party Page styles */
-.bridal-party__container{
+.column-title {
+    text-align: center;
+}
+
+.bridal-party__container {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.bridal-party__entry{
     float: left;
     display: inline;
     width: 75%;
 }
 
-.bridal-party__container .bridal-party__name {
+.bridal-party__entry .bridal-party__name {
     float: none;
     font-size: large;
+}
+
+.bridal-party__entry .bridal-party__description {
 }
 
 .bridal-party__img {
     float: left;
     width: 25%;
+    height: 100%;
 }
 
 /* Registry Page styles */
