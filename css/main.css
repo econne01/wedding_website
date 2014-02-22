@@ -46,10 +46,19 @@ header img.elephant-icon {
     clear: both;
     background: #ffddaa;
 
-    border-bottom: 3px solid #990066; /* Dark Purple */
-    border-top: none;    
-    border-left: none;    
-    border-right: none;    
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.navbar__border-bottom {
+    width: 120%;
+    height: 3px;
+    margin-left: -10%;
+    background-color: #990066; /* Dark Purple */
+    position: relative;
+    bottom: 5px;
 }
 
 /* Used to center navbar if desired
@@ -62,7 +71,6 @@ header img.elephant-icon {
     text-align: center;
 }
 */
-
 .navbar div {
     padding: 0px 0px 0px 0px;
 }
@@ -74,6 +82,17 @@ header img.elephant-icon {
 .navbar-default .navbar-nav > li > a:hover {
     color: #990066;
 }
+
+.navbar-default .navbar-nav > li > a.selected {
+    background-color: #990066; /* Dark Purple */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 4rem;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    color: white;
+}
+
 
 /* Page content-body styling */
 .page-title {
