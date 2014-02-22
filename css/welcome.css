@@ -17,22 +17,23 @@ html, body {
 
     min-width:100%;
     min-height:100%;
-    background:transparent url(../images/eg_stoop.jpg) center center no-repeat;
+    background:transparent url(../images/stoop_crop2.jpg) center center no-repeat;
     background-size:cover;
 }
 
 .title {
     position: relative;
     z-index: 2;
-    left: -25%;
+    top: 7.5rem;
+    padding-left: 65rem;
     color: white;
 }
 .title.main {
-    font-size: 450%;
-    margin-bottom: -2%;
+    font-size: 8rem;
+    margin-bottom: -3rem;
 }
 .title.date-title {
-    font-size: 250%;
+    font-size: 4rem;
 }
 
 .content {
