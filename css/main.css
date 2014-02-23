@@ -1,7 +1,7 @@
 /* Bootstrap add-on styling */
-.center-col-9 {
-    padding-left: 12.5%;
-    padding-right: 12.5%;
+.center-col {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* Overall site styling */
@@ -130,34 +130,104 @@ img.elephant-icon--small {
     font-family: GreatVibes, serif;
 }
 
-/* Bridal Party Page styles */
+/* Bridal Party Page styles (take 2)*/
 .column-title {
     text-align: center;
 }
 
-.bridal-party__container {
-    height: 150px;
-    margin-bottom: 20px;
+.bridal-party-title {
+    position: relative;
+    left: 0.9rem; /* Length of 'His & Hers' text is not symmetric, so center on '&' */
 }
 
-.bridal-party__entry{
+.bridal-party-title span {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.party-member {
+    width: 36%; /* So will be 36% * 50% = 18% of page width */
+    height: auto;
+}
+
+.party-member__row {
+    display: table;
+}
+
+.groomsman__container {
     float: left;
-    display: inline;
-    width: 70%;
+    clear: left;
+    width: 50%;
+    /* margin-left: 9%; To push half of bridesmaid img to center */
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
 }
 
-.bridal-party__entry .bridal-party__name {
-    float: none;
+.groomsman__info {
+    width: 64%; /* 100% - img's width */
+    float: right;
+    padding-right: 1.5rem;
+}
+
+.groomsman__img {
+    float: right;
+}
+
+.groomsman__name {
     font-size: large;
+    float: right;
+    clear: both;
+    text-align: right;
 }
 
-.bridal-party__entry .bridal-party__description {
+.groomsman__relation {
+    float: right;
+    clear: both;
+    text-align: right;
 }
 
-.bridal-party__img {
+.groomsman__description {
+    float: right;
+    clear: both;
+    text-align: right;
+}
+
+.bridesmaid__container {
+    float: right;
+    clear: right;
+    width: 50%;
+    /* margin-right: 9%; To push half of img to center */
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.bridesmaid__info {
+    width: 64%; /* 100% - img's width */
     float: left;
-    width: 30%;
-    height: 100%;
+    padding-left: 1.5rem;
+}
+
+.bridesmaid__img {
+    float: left;
+}
+
+.bridesmaid__name {
+    font-size: large;
+    float: left;
+    clear: both;
+    text-align: left;
+}
+
+.bridesmaid__relation {
+    float: left;
+    clear: both;
+    text-align: left;
+}
+
+.bridesmaid__description {
+    float: left;
+    clear: both;
+    text-align: left;
 }
 
 /* Registry Page styles */
