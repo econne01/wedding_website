@@ -53,14 +53,13 @@ img.elephant-icon--small {
     margin-left: -10%;
     background-color: #990066; /* Dark Purple */
     position: relative;
-    bottom: 10px;
+    bottom: 3px;
 }
 
 /* Used to center navbar if desired*/
 .navbar .navbar-icon__container {
     float: none;
     display: inline-block;
-    margin-bottom: 0.75rem;
     margin-left: -1.5rem;
     padding-right: 1.5rem;
 }
@@ -69,6 +68,7 @@ img.elephant-icon--small {
     float: none;
     display: inline-block;
     margin-right: 11rem;
+    margin-bottom: -0.75rem;
 }
 
 .navbar-collapse {
@@ -101,6 +101,9 @@ img.elephant-icon--small {
     color: white;
 }
 
+.selected.rounded-border {
+    border-radius: 8px;
+}
 
 /* Page content-body styling */
 .page-title {
