@@ -30,16 +30,11 @@ header .main-title {
     width: 98%; /* Looked off-center below title text even when its not */
 }
 
-img.elephant-icon {
-    height: 80px;
-    width: 100px;
+img.elephant-icon--small {
+    height: 3.5rem;
+    width: 5.5rem;
     float: left;
 }
-header img.elephant-icon {
-    margin-top: 20px;
-    margin-bottom: -95px;
-}
-
 
 /* Navbar styling */
 .navbar {
@@ -58,23 +53,36 @@ header img.elephant-icon {
     margin-left: -10%;
     background-color: #990066; /* Dark Purple */
     position: relative;
-    bottom: 5px;
+    bottom: 10px;
 }
 
-/* Used to center navbar if desired
+/* Used to center navbar if desired*/
+.navbar .navbar-icon__container {
+    float: none;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    margin-left: -1.5rem;
+    padding-right: 1.5rem;
+}
+
 .navbar .navbar-nav {
     float: none;
     display: inline-block;
+    margin-right: 11rem;
 }
 
 .navbar-collapse {
     text-align: center;
 }
-*/
+
 .navbar div {
     padding: 0px 0px 0px 0px;
 }
 
+.navbar-default .navbar-nav > li {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
 
 .navbar-default .navbar-nav > li > a {
     color: #d33300; /* Dark Orange */
