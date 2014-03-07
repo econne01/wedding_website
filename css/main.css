@@ -133,6 +133,8 @@ img.elephant-icon--small {
 /* Bridal Party Page styles (take 2)*/
 .column-title {
     text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
 }
 
 .bridal-party-title {
@@ -254,9 +256,39 @@ div.registry__container {
 }
 
 /* Gallery Page styles */
+.gallery__row {
+    /*width: 100%;*/
+    overflow: auto;
+    padding-bottom: 2rem;
+}
+
+.gallery__container {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.gallery__img-container {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.gallery__img-container:after {
+    padding-top: 75%; /* 4:3 ratio */
+    display: block;
+    content: '';
+}
+
 .gallery__img {
-    width: 80%;
-    margin-left: 10%;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gallery__description {
