@@ -252,6 +252,7 @@ div.registry__container {
 .hotel__img {
     height: 175px;
     width: auto;
+    max-width: 125%;
     margin-bottom: 50px;
 }
 
