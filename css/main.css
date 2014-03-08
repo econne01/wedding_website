@@ -14,6 +14,14 @@ body.content-container {
     padding-bottom: 50px;
 }
 
+.linebreak {
+    width: 100%;
+    height: 3px;
+    background-color: #990066; /* Dark Purple */
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
 /* Header styling */
 .main-title__container {
     width: 100%;
@@ -160,7 +168,6 @@ img.elephant-icon--small {
     float: left;
     clear: left;
     width: 50%;
-    /* margin-left: 9%; To push half of bridesmaid img to center */
     padding-right: 0.5rem;
     padding-bottom: 1rem;
 }
@@ -198,7 +205,6 @@ img.elephant-icon--small {
     float: right;
     clear: right;
     width: 50%;
-    /* margin-right: 9%; To push half of img to center */
     padding-left: 0.5rem;
     padding-bottom: 1rem;
 }
@@ -242,6 +248,10 @@ div.registry__container {
     height: 40px;
     width: 120px;
     border-radius: 5px;
+}
+
+.registry__img {
+    width: 100%;
 }
 
 /* Hotel Page styles */
