@@ -21,19 +21,21 @@ html, body {
     background-size:cover;
 }
 
-.title {
+.title__container {
     position: relative;
+    width: 33%;
+    float: right;
     z-index: 2;
-    top: 7.5rem;
-    padding-left: 65rem;
+    top: 6.5rem;
+    padding-right: 10%;
+}
+
+.title {
     color: white;
+    display: none; /* Needed to hide title on load, until font size determined*/
 }
 .title.main {
-    font-size: 8rem;
-    margin-bottom: -3rem;
-}
-.title.date-title {
-    font-size: 4rem;
+    margin-bottom: -1rem;
 }
 
 .content {
