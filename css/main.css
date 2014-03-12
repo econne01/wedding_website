@@ -91,6 +91,10 @@ img.elephant-icon--small {
     display: inline-block;
 }
 
+#eg-navbar-default {
+    text-align: center;
+}
+
 #eg-navbar-default .navbar-nav {
     margin-bottom: -0.75rem;
 }
