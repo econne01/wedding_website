@@ -6,7 +6,7 @@
 
 /* Overall site styling */
 body.content-container {
-    background: #ffddaa; /* Very Pale red */
+    background: #ffd6aa; /* Very Pale red */
     padding: 0px 10% 50px 10%;
 }
 
@@ -57,7 +57,7 @@ img.elephant-icon--small {
 /* Navbar styling */
 .navbar {
     clear: both;
-    background: #ffddaa;
+    background: #ffd6aa;
 
     border-bottom: none;
     border-top: none;
@@ -127,7 +127,7 @@ img.elephant-icon--small {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
-    background: #ffddaa; /* Very Pale red */
+    background: #ffd6aa; /* Very Pale red */
     color: #990066; /* Dark Purple */
     border-color: #990066; /* Dark Purple */
     border-radius: 8px;
