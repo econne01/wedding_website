@@ -1,3 +1,23 @@
+.wedding-row__element {
+    max-width: 50%;
+    min-width: 250px;
+    text-align: center;
+}
+/*.wedding-row__element img {
+    width: 100%;
+}
+*/
+.party-pic {
+    width: 100%;
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 /* Bootstrap add-on styling */
 .center-col {
     padding-left: 10%;
