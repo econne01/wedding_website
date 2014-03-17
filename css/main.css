@@ -1,30 +1,3 @@
-.wedding-row__element {
-    /*max-width: 50%;*/
-    min-width: 250px;
-    text-align: center;
-}
-/*.wedding-row__element img {
-    width: 100%;
-}
-*/
-
-@media (min-width: 500px) {
-    .wedding-row__element {
-        max-width:50%;
-    }
-}
-
-.party-pic {
-    width: 100%;
-}
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
-
 /* Bootstrap add-on styling */
 .center-col {
     padding-left: 10%;
@@ -200,97 +173,58 @@ img.elephant-icon--small {
     margin-bottom: 2rem;
 }
 
-.bridal-party-title {
-    position: relative;
-    left: 0.9rem; /* Length of 'His & Hers' text is not symmetric, so center on '&' */
+.party-member__container {
+    min-width: 250px;
+    padding-left: 0px;
+    padding-right: 0px;
+    vertical-align: bottom;
+    text-align: center;
 }
 
-.bridal-party-title span {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.party-member__img {
+    max-width: 100%;
 }
 
-.party-member {
-    width: 36%; /* So will be 36% * 50% = 18% of page width */
-    height: auto;
-}
-
-.party-member__row {
-    display: table;
-}
-
-.groomsman__container {
-    float: left;
-    clear: left;
-    width: 50%;
-    padding-right: 0.5rem;
-    padding-bottom: 1rem;
+.party-member__name {
+    font-size: large;
 }
 
 .groomsman__info {
-    width: 64%; /* 100% - img's width */
-    float: right;
-    padding-right: 1.5rem;
-}
-
-.groomsman__img {
-    float: right;
-}
-
-.groomsman__name {
-    font-size: large;
-    float: right;
-    clear: both;
-    text-align: right;
-}
-
-.groomsman__relation {
-    float: right;
-    clear: both;
-    text-align: right;
-}
-
-.groomsman__description {
-    float: right;
-    clear: both;
-    text-align: right;
-}
-
-.bridesmaid__container {
-    float: right;
-    clear: right;
-    width: 50%;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
     padding-bottom: 1rem;
+}
+.groomsman__info div {
+    text-align: center;
 }
 
 .bridesmaid__info {
-    width: 64%; /* 100% - img's width */
-    float: left;
-    padding-left: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.bridesmaid__info div {
+    text-align: center;
 }
 
-.bridesmaid__img {
-    float: left;
-}
 
-.bridesmaid__name {
-    font-size: large;
-    float: left;
-    clear: both;
-    text-align: left;
-}
-
-.bridesmaid__relation {
-    float: left;
-    clear: both;
-    text-align: left;
-}
-
-.bridesmaid__description {
-    float: left;
-    clear: both;
-    text-align: left;
+@media (min-width: 600px) {
+    .party-member__container {
+        width:50%;
+        display: table-cell;
+    }
+    .groomsman__info {
+        float: left;
+    }
+    .groomsman__info div {
+        text-align: right;
+    }
+    .bridesmaid__info {
+        float: right;
+    }
+    .bridesmaid__info div {
+        text-align: left;
+    }
 }
 
 /* Registry Page styles */
