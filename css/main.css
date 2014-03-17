@@ -22,6 +22,10 @@ body.content-container {
     margin-bottom: 1.5rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Header styling */
 .main-title__container {
     width: 100%;
